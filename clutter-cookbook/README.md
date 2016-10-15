@@ -3,130 +3,191 @@ Examples taken from the [Clutter Cookbook](https://developer.gnome.org/clutter-c
 Original C code is available at [Gnome](https://git.gnome.org/browse/clutter/tree/doc/cookbook/examples)
 ([GitHub mirror](https://github.com/GNOME/clutter/tree/master/doc/cookbook/examples)).
 
+Last commit to Cookbook: [df15f04](https://github.com/GNOME/clutter/commit/df15f04fc0474be09e6839618c598d43aee920e5).
+
 
 - 2. Actors
   - 2.1. cb-button.h: header file
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/actors-composite.html#actors-composite-cb-button-h)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-button.h)
   - 2.2. cb-button.c: ClutterActor and GObject implementation
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/actors-composite.html#actors-composite-cb-button-c)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-button.c)
   - 2.3. actors-composite-main.c: trivial application demonstrating usage of CbButton
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/actors-composite.html#actors-composite-actors-composite-main-c)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/actors-composite-main.c)
 - 3. Events
   - 3.1. Mouse scrolling over a ClutterActor
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-mouse-scroll.html#events-mouse-scroll-example)
+    - [Cookbook code](examples/events-mouse-scroll.c)
   - 3.2. Simple button with a hover animation (change in opacity as the pointer enters and leaves it)
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-pointer-motion.html#events-pointer-motion-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/events-pointer-motion-crossing.c)
   - 3.3. Detecting pointer motion on a ClutterRectangle
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-pointer-motion.html#events-pointer-motion-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/events-pointer-motion.c)
   - 3.4. How actors influence pointer events on each other
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-pointer-motion.html#events-pointer-motion-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/events-pointer-motion-stacked.c)
   - 3.5. Scribbling on a ClutterTexture in response to pointer events
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-pointer-motion.html#events-pointer-motion-example-4)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/events-pointer-motion-scribbler.c)
   - 3.6. Examining properties of a ClutterButtonEvent
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-buttons.html#events-buttons-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/events-buttons.c)
   - 3.7. Using ClutterClickAction to capture button events on an actor
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-buttons.html#events-buttons-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/events-buttons-click.c)
   - 3.8. Using button and pointer events for drawing
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-buttons.html#events-buttons-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/events-buttons-lasso.c)
 - 4. Textures
   - 4.1. Creating a sub-texture from an existing texture
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/textures-sub-textures.html#textures-sub-texture)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/textures-sub-texture.c)
   - 4.2. Creating a sub-texture from an existing texture
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/textures-sub-textures.html#textures-split-go)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/textures-split-go.c)
   - 4.3. Creating a glassy reflection of a texture
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/textures-reflection.html#textures-reflection-example)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/textures-reflection.c)
   - 4.4. Cross-fading between two images using two ClutterTextures
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/textures-crossfade.html#textures-crossfade-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/textures-crossfade.c)
   - 4.5. Cross-fading between two images using one ClutterTexture and the COGL API
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/textures-crossfade.html#textures-crossfade-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/textures-crossfade-cogl.c)
   - 4.6. A simple slideshow application using two ClutterTextures
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/textures-crossfade.html#textures-crossfade-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/textures-crossfade-slideshow.c)
 - 5. Animations
   - 5.1. Rotating an actor around x, y, and z axes using ClutterState
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-rotating.html#animations-rotating-example)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-rotating.c)
   - 5.2. JSON definition of a complex animation using ClutterAnimator
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-complex.html#animations-complex-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-complex.json)
   - 5.3. Simple program for loading a JSON script; any key press starts the animation
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-complex.html#animations-complex-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-complex.c)
   - 5.4. Running multiple transition sequences with different key frames in parallel using ClutterAnimator
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-complex.html#animations-complex-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-complex-overlapping.json)
   - 5.5. ClutterScript JSON defining several rectangles with signal handlers
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-reuse.html#animations-reuse-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-reuse-ui.json)
   - 5.6. ClutterScript JSON describing a "rig" and a ClutterAnimator animation
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-reuse.html#animations-reuse-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-reuse-animation.json)
   - 5.7. Loading ClutterScript from JSON files in response to events in a user interface
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-reuse.html#animations-reuse-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-reuse.c)
   - 5.8. Simple movement using implicit animations
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-moving.html#animations-moving-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-moving-implicit.c)
   - 5.9. Using ClutterState to repeatedly move (and scale) two actors
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-moving.html#animations-moving-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-moving-state.c)
   - 5.10. Using ClutterAnimator to randomly move three actors along the x axis
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-moving.html#animations-moving-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-moving-animator.c)
   - 5.11. Looping an implicit animation
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-looping.html#animations-looping-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-looping-implicit.c)
   - 5.12. Looping with ClutterAnimator
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-looping.html#animations-looping-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-looping-animator.c)
   - 5.13. Looping with ClutterState
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-looping.html#animations-looping-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-looping-state.c)
   - 5.14. Animated scaling of an actor using each of the scale gravities. Press any key to start the animation.
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-scaling.html#animations-scaling-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-scaling.c)
   - 5.15. Animated scaling (up and down) of a texture in response to button presses. Call with the path to an image as the first argument.
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-scaling.html#animations-scaling-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-scaling-zoom.c)
   - 5.16. Using a ClutterPathConstraint with implicit animations to move an actor along a curved path
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-path.html#animations-path-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-path.c)
   - 5.17. Using a ClutterPathConstraint with ClutterAnimator to animate an actor on a simulated circular path
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-path.html#animations-path-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-path-circle.c)
   - 5.18. Animating actors on curved paths using easing modes
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/animations-path.html#animations-path-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/animations-path-easing.c)
 - 6. Text
   - 6.1. Creating a shadow of a text
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/text-shadow.html#text-shadow-example)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/text-shadow.c)
 - 7. Layout management
   - 7.1. ClutterBinLayout, with actors in 9 combinations of start, center and end alignment combinations
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/layouts-stacking.html#layouts-stacking-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/layouts-stacking-diff-sized-actors.c)
   - 7.2. Layering multiple textures on top of each other inside a ClutterBinLayout
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/layouts-stacking.html#layouts-stacking-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/layouts-stacking.c)
   - 7.3. Constraining the size of a texture to the size of the stage using ClutterBindConstraint
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/layouts-bind-constraint.html#layouts-bind-constraint-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/layouts-bind-constraint-stage.c)
   - 7.4. Creating an automatically-resizing overlay for a texture using ClutterBindConstraint
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/layouts-bind-constraint.html#layouts-bind-constraint-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/layouts-bind-constraint-overlay.c)
   - 7.5. Using the allocation-changed signal of one actor to trigger proportional size changes in another
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/layouts-bind-constraint.html#layouts-bind-constraint-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/layouts-bind-constraint-allocation.c)
   - 7.6. Different approaches to setting child layout properties in a ClutterBoxLayout
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/layouts-box.html#layouts-box-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/layouts-box.c)
   - 7.7. A simple ClutterBoxLayout menu
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/layouts-box.html#layouts-box-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/layouts-box-menu.c)
   - 7.8. A demonstrator for "toggling and tweaking" a ClutterBoxLayout's properties
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/layouts-box.html#layouts-box-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/layouts-box-property-effects.c)
 - 8. Script
   - 8.1. Example UI definition in JSON for use with ClutterScript
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/script.html#idm47790507900720)
+    - Original cookbook code is not its own file.
   - 8.2. Loading JSON from a file and retrieving objects defined by it
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/script-ui.html#idm47790505865312)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/script-ui.c)
   - 8.3. ClutterScript JSON with signal handler definitions
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/script-signals.html#script-signals-examples-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/script-signals.json)
   - 8.4. Loading a JSON file into a ClutterScript and connecting signal handlers
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/script-signals.html#script-signals-examples-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/script-signals.c)
   - 8.5. ClutterScript JSON with state definitions
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/script-state.html#script-states-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/script-states.json)
   - 8.6. Loading a JSON file into a ClutterScript and connecting states
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/script-state.html#script-states-examples-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/script-states.c)
 - 9. Effects
   - 9.1. Applying a ClutterColorizeEffect to a texture loaded with an image
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects.html#effects-introduction-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/effects-built-in.c)
   - 9.2. cb-background-effect.h (header file)
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects-basic.html#effects-basic-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-background-effect.h)
   - 9.3. cb-background-effect.c (code file)
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects-basic.html#effects-basic-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-background-effect.c)
   - 9.4. cb-border-effect.h (header file)
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects-basic.html#effects-basic-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-border-effect.h)
   - 9.5. cb-border-effect.c (code file)
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects-basic.html#effects-basic-example-4)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-border-effect.c)
   - 9.6. Application which applies CbBorderEffect and CbBackgroundEffect to a group of ClutterTextures.
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects-basic.html#effects-basic-example-5)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/effects-basic.c)
   - 9.7. cb-page-fold-effect.h (header file)
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects-custom-deform.html#effects-custom-deform-example-1)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-page-fold-effect.h)
   - 9.8. cb-page-fold-effect.c (code file)
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects-custom-deform.html#effects-custom-deform-example-2)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-page-fold-effect.c)
   - 9.9. Application which uses CbPageFoldEffect to do animated folding of a ClutterTexture
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/effects-custom-deform.html#effects-custom-deform-example-3)
+    - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/effects-custom-deform.c)
