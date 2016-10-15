@@ -10,12 +10,15 @@ Last commit to Cookbook: [df15f04](https://github.com/GNOME/clutter/commit/df15f
   - 2.1. cb-button.h: header file
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/actors-composite.html#actors-composite-cb-button-h)
     - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-button.h)
+    - Perl: not applicable. No need for a separate header file.
   - 2.2. cb-button.c: ClutterActor and GObject implementation
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/actors-composite.html#actors-composite-cb-button-c)
     - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/cb-button.c)
+    - [Perl](02-actors/CookbookButton.pm)
   - 2.3. actors-composite-main.c: trivial application demonstrating usage of CbButton
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/actors-composite.html#actors-composite-actors-composite-main-c)
     - [Cookbook code](https://github.com/GNOME/clutter/blob/master/doc/cookbook/examples/actors-composite-main.c)
+    - [Perl](02-actors/actors-composite-main.pl)
 - 3. Events
   - 3.1. Mouse scrolling over a ClutterActor
     - [Cookbook](https://developer.gnome.org/clutter-cookbook/stable/events-mouse-scroll.html#events-mouse-scroll-example)
