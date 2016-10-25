@@ -26,8 +26,10 @@ sub clicked($button) { ## no critic
 }
 
 sub main() {
+	# TODO Can switch to the second line below once perl-Clutter is patched.
+	# See <https://github.com/zmughal/perl-Clutter/issues/1>.
 	Clutter::init;
-	#die "Could not init Clutter" unless Clutter::init();
+	#die "Could not init Clutter" unless Clutter::init eq 'success';
 
 	my $stage = Clutter::Stage->new;
 	$stage->set_size(400, 400);
